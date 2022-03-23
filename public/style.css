@@ -1,0 +1,37 @@
+body{
+    background-color: #F3E9DD;
+    
+}
+
+.aboutTitle{
+    color: black;
+    text-align: left;
+    margin-left: 20%;
+}
+.skillTitle {
+    color: black;
+    text-align: right;
+   margin-right: 20%;
+}
+
+.aboutPGTitles{
+    display: block;
+    display: inline-block
+    
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.box-container{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
