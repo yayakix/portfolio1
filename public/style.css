@@ -1,18 +1,75 @@
 body{
-    background-color: #F3E9DD;
+    background-color: #e8e8e8;
     
 }
+.about-div{
+     text-align: center;
+     margin: auto;
+     justify-content: center;
+}
+img{
+    width: 25%;
+    border: 1px solid black;
+}
+.form-div{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+h1{
+    color: #6d6d6d;
 
-.aboutTitle{
-    color: black;
-    text-align: left;
-    margin-left: 20%;
 }
-.skillTitle {
-    color: black;
-    text-align: right;
-   margin-right: 20%;
+.contact-div{
+    text-align: center;
+    
 }
+.card-container {
+    background-color: white;
+    border: 5px solid #a19882;
+    width: 30%;
+    height: 30%;
+    margin: 10px 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.form-div{
+    width: 340px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: #6d6d6d
+
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#submit{
+    font-size: 20px;
+    color: #6d6d6d
+}
+#submit:hover{
+    color: #242222
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
 
 .aboutPGTitles{
     display: block;
@@ -24,14 +81,12 @@ ul {
     list-style-position: inside;
 }
 
-.img {
-    width: 100px;
-    height: 100px;
-}
+
 
 .box-container{
-    border: 1px solid black;
+    border: 1px solid #947f75;
     width: 80%;
     margin: auto;
     padding: 20px;
+    margin-top: 30px;
 }
